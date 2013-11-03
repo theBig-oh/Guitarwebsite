@@ -3,25 +3,64 @@
 	<title>Guitar webpage </title>
 
 	<style>
-	div {
-		border:1px solid blue;
-		margin:2px;
+	body {
+		background-color:white;
+	}
+
+	p{
+		color:white;
 	}
 	.intro {
 		display:inline-block;
-		width:100%;
-		float:left;
+		border:1px solid blue;
+		margin:2px;
+		width:50%;
+		border-radius:5px;
+		padding:4px;
+		float:right;
 	}
 
 	.instruct {
-		float:left;
+		float:right;
 		width:45%;
+		border:1px solid blue;
+		margin:2px;
+		width:50%;
+		border-radius:5px;
+		padding:4px;
 	}
 
 	#guitar {
-		width:50%;
 		position:absolute;
-		top:200px;
+		top:500px;
+		border:1px solid blue;
+		margin:2px;
+		width:auto;
+		border-radius:5px;
+		padding:4px;
+	}
+	#fretnum {
+		float:right;
+		width:45%;
+		border:1px solid blue;
+		margin:2px;
+		width:50%;
+		border-radius:5px;
+		padding:4px;
+	}
+
+	img {
+		width:850px;
+		height:auto;
+	}
+
+	#scale11 img {
+		transform:rotate(45deg);
+		-webkit-transform:rotate(20deg);
+		width:800px;
+		position:relative;
+		left:15px;
+		
 	}
 	</style>
 
@@ -52,18 +91,14 @@
 				<option>22.72 in. (577 mm)</option>
 				<option>22.75 in. (578 mm)</option>
 				<option>23.5 in. (597 mm)</option>
-				<option>24 in. (610 mm)</option>
+				<option>24 in. (610 mm)(Most Jags, Mustangs and Broncos)</option>
 				<option>24.5 in. (622 mm)</option>
-				<option>24.6 in. (625 mm)</option>
-				<option>24.75 in. (629 mm)</option>
-				<option>25 in. (635 mm)</option>
+				<option>24.6 in. (625 mm)(Most Gretsch)</option>
+				<option>24.75 in. (629 mm)(Most Epiphones)</option>
+				<option>25 in. (635 mm) (Most Danelectro and PRS)</option>
 				<option>25.125 in. (638 mm)</option>
-				<option>25.2 in. (640 mm)</option>
-				<option>25.5 in. (648 mm)</option>
-				<option>26.38 in. (670 mm)</option>
+				<option>25.5 in. (648 mm) (Most Fender, Ibanez, Jackson, Squiers and Schecter)</option>
 				<option>27 in. (686 mm)</option>
-				<option>29.25 in. (743 mm)</option>
-				<option>29.4 in. (749 mm)</option>
 				</submit>
 			</select>
 
@@ -71,9 +106,9 @@
 		</p>
 	</div>
 	<div id="fretnum">
-		<p> Pick which fret. 
+		<p> Fret Number? 
 			<input type="submit">
-			<selct name="fretnum" class="frets">
+			<select name="fretn" class="frets">
 				<option>0</option>
 				<option>1</option>
 				<option>2</option>
@@ -105,13 +140,59 @@
 	</div>
 
 		<div id="guitar">
-		<p> This one is going to be for the guitar images
-			.
-			.
-			.
-			.
-			.
-			.
+			
+
+			<div id="scale9">
+			<IMG SRC="Images/IbanezArt.jpg"/>		
+			</div>
+			<div id="scale1">
+				<img src="Images/SquireBullet.jpg"/>
+			</div>
+			<div id="scale2">
+				<img src="Images/FenMustang.jpg"/>
+			</div>
+			<div id="scale3">
+				<img src="Images/FenStratJunior.jpg"/>
+			</div>
+			<div id="scale4">
+				<img src="Images/GibLesPaulJR.jpg"/>
+			</div>
+			<div id="scale5">
+				<img src="Images/GibByrd.jpg"/>
+			</div>
+			<div id="scale6">
+				<img src="Images/FenJag.jpg"/>
+			</div>
+			<div id="scale7">
+				<img src="Images/PRSSintana.jpg"/>
+			</div>
+			<div id="scale8">
+				<img src="Images/GretchSilver.jpg"/>
+			</div>
+			<div id="scale10">
+				<img src="Images/danelectro.jpeg"/>
+			</div>
+			<div id="scale11">
+				<img src="Images/VoxVirageII.jpg"/>
+			</div>
+			<div id="scale12">
+				<img src="Images/IbanezGAX70.jpg"/>
+			</div>
+			<div id="scale13">
+				<img src="Images/IbanezRG2228.jpg"/>
+			</div>
+			<div id="scale">
+
+			</div>
+			<div id="scale">
+
+			</div>
+			<div id="scale">
+
+			</div>
+			
+			
+			
 		</p>
 	</div>
 	
