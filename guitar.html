@@ -3,27 +3,34 @@
         <title>Guitar webpage </title>
 
         <style>
-        body {
-                background-color:white;
-        }
-	
-	
-	#banner {
-		position:absolute;
-		top:0px;		
-		left:0px;
-		border:1px solid black;
-		width:100%;
-		height:auto;
-		background-color:black;
-	}
+       	@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700italic|Pacifico|Righteous|Black+Ops+One|Rock+Salt);
 
-	#banner p {
-	color:white;
-	position:relative;
-	bottom:5px;
-	left:700px;
-	}        
+
+        body {
+                background-color:rgba(255,255,255,0.5);
+        }
+		
+		p {
+			font-family: 'Black Ops One', cursive;
+			/*color:white;*/
+		}
+		
+		#banner {
+			position:absolute;
+			top:0px;		
+			left:0px;
+			border:1px solid black;
+			width:100%;
+			height:auto;
+			background-color:black;
+		}
+
+		#banner p {
+		color:white;
+		position:relative;
+		bottom:5px;
+		left:700px;
+		}        
         
         .intro {
                 display:inline-block;
@@ -82,21 +89,28 @@
         }
 
         #guitarimage {
-                display:none;
+               
         }
 
-	.body {
-	position:absolute;
-	top:100px;
-	}
+		.body {
+		position:absolute;
+		top:100px;
+		}
 
-	#side {
-	border:1px solid black;
-	width:24%;
-	height:100%;
-	background-color:black;
-	}
-	
+		#side {
+		border:1px solid black;
+		width:15%;
+		height:100%;
+		background-color:black;
+		}
+		
+		#side p {
+			color:white;
+			position:relative;
+			top:50%;
+		}
+
+
         </style>
 
 </head>
@@ -112,21 +126,23 @@
 	</div>
 		<div class="body">
                 	<div class="intro">
-                <p>This is a test site which I am using for the guitar site
-                        I'm not sure how long this will be, so I am making some random shit
-                        .
-                        .
-                        .
-                        .
-                        .
-                        .
-                        .
-                        .
+                <p style="font-family: 'Philosopher', sans-serif;"> I created this little webapp, to help guitarist
+                	on learning their instruments, specifically where the harmonics are on a guitar. On every fret.
+                	<br><br>
+                	What I mean by this, is instead of scuffling around and trying to find that harmonic while holding down on the 9th fret; you can now see where it is visually on the guitar through this. 
+
+            		<br><br>
+            		What is a harmonic? 
+
+
                 </p>
         		</div>
 
                 <div class="instruct">
-                <p>Select your guitar scale length.
+                <p>Select your guitar scale length.</p>
+                	<br><br>
+                <p>*Guitar name will be next to the picture
+                	
                         <input type="submit">
                         <select name="scalelength" class="scalelist">
                                 
@@ -147,7 +163,7 @@
                         </select>
 
 
-                </p>
+                
         		</div>
        			 <div id="fretnum">
                 <p> Fret Number? 
@@ -187,43 +203,56 @@
                         <div id="guitarimage">
 
                         <div id="scale9">
-                        <IMG SRC="Images/IbanezArt.jpg"/>                
+                        <IMG SRC="Images/IbanezArt.jpg"/> 
+                        <p>Ibanez Artcore               
                         </div>
                         <div id="scale1">
                                 <img src="Images/SquireBullet.jpg"/>
+                                <p>Squire Bullet Mini
                         </div>
                         <div id="scale2">
                                 <img src="Images/FenMustang.jpg"/>
+                                <p>Fender Mustang (3/4 model)
                         </div>
                         <div id="scale3">
                                 <img src="Images/FenStratJunior.jpg"/>
+                                <p>Fender Stratrocaster Junior
                         </div>
                         <div id="scale4">
                                 <img src="Images/GibLesPaulJR.jpg"/>
+                                <p> Gibson Les Paul Junior
                         </div>
                         <div id="scale5">
                                 <img src="Images/GibByrd.jpg"/>
+                                <p>Gibson Byrdland
                         </div>
                         <div id="scale6">
                                 <img src="Images/FenJag.jpg"/>
+                                <p>Fender Jaguar
                         </div>
                         <div id="scale7">
                                 <img src="Images/PRSSintana.jpg"/>
+                                <p>PRS Sintana Signature Model
                         </div>
                         <div id="scale8">
                                 <img src="Images/GretchSilver.jpg"/>
+                                <p>Gretsch Silver Falcon
                         </div>
                         <div id="scale10">
                                 <img src="Images/danelectro.jpeg"/>
+                                <p>Danelectro Dano
                         </div>
                         <div id="scale11">
                                 <img src="Images/VoxVirageII.jpg"/>
+                                <p>Vox Virage II
                         </div>
                         <div id="scale12">
                                 <img src="Images/IbanezGAX70.jpg"/>
+                                <p>Ibanez GAX70
                         </div>
                         <div id="scale13">
                                 <img src="Images/IbanezRG2228.jpg"/>
+                                <p>Ibanez Rg2228
                         
                         </div>
                         
