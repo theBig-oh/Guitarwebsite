@@ -12,7 +12,8 @@ function scaleLen(){
 	for (var x=0;x<=26;x++) {
 		var fretnum = fret[x]
 		var ans = fretnum / scale
-		console.log(ans + ' is for fret number' + x )
+		var anss = ans.toFixed(6)
+		console.log(anss + ' is for fret number' + x )
 	}
 
 
