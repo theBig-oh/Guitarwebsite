@@ -1,3 +1,58 @@
+Scale length 20.7
+0 is for fret number0 
+0.056135 is for fret number1 
+0.109082 is for fret number2 
+0.159082 is for fret number3 
+0.206280 is for fret number4 
+0.250869 is for fret number5 
+0.292898 is for fret number6 
+0.332560 is for fret number7 
+0.370048 is for fret number8 
+0.405410 is for fret number9 
+0.438792 is for fret number10 
+0.470289 is for fret number11 
+0.5 	 is for fret number12 
+0.528067 is for fret number13 
+0.554541 is for fret number14 
+0.579565 is for fret number15 
+0.603140 is for fret number16 
+0.625410 is for fret number17 
+0.646425 is for fret number18 
+0.666280 is for fret number19 
+0.685024 is for fret number20 
+0.702705 is for fret number21 
+0.719371 is for fret number22 
+0.735120 is for fret number23 
+0.75 	 is for fret number24 
+
+
+Scale length 22.5
+
+0.056133 is for fret number1 fretratiocalc.js:18
+0.109111 is for fret number2 fretratiocalc.js:18
+0.159111 is for fret number3 fretratiocalc.js:18
+0.206311 is for fret number4 fretratiocalc.js:18
+0.250844 is for fret number5 fretratiocalc.js:18
+0.292889 is for fret number6 fretratiocalc.js:18
+0.332578 is for fret number7 fretratiocalc.js:18
+0.370044 is for fret number8 fretratiocalc.js:18
+0.405378 is for fret number9 fretratiocalc.js:18
+0.438756 is for fret number10 fretratiocalc.js:18
+0.470267 is for fret number11 fretratiocalc.js:18
+0.500000 is for fret number12 fretratiocalc.js:18
+0.528044 is for fret number13 fretratiocalc.js:18
+0.554533 is for fret number14 fretratiocalc.js:18
+0.579556 is for fret number15 fretratiocalc.js:18
+0.603156 is for fret number16 fretratiocalc.js:18
+0.625422 is for fret number17 fretratiocalc.js:18
+0.646444 is for fret number18 fretratiocalc.js:18
+0.666311 is for fret number19 fretratiocalc.js:18
+0.685022 is for fret number20 fretratiocalc.js:18
+0.702711 is for fret number21 fretratiocalc.js:18
+0.719378 is for fret number22 fretratiocalc.js:18
+0.735156 is for fret number23 fretratiocalc.js:18
+0.750000 is for fret number24 
+
 Scale length 22.72
 
 0 is for fret number0 
@@ -54,6 +109,32 @@ Scale length 22.75
 0.735120 for fret number23 
 0.749978 is for fret number24  
 
+scale length 23.25
+
+0.056129 is for fret number1 fretratiocalc.js:18
+0.109118 is for fret number2 fretratiocalc.js:18
+0.159097 is for fret number3 fretratiocalc.js:18
+0.206280 is for fret number4 fretratiocalc.js:18
+0.250839 is for fret number5 fretratiocalc.js:18
+0.292903 is for fret number6 fretratiocalc.js:18
+0.332559 is for fret number7 fretratiocalc.js:18
+0.370022 is for fret number8 fretratiocalc.js:18
+0.405376 is for fret number9 fretratiocalc.js:18
+0.438753 is for fret number10 fretratiocalc.js:18
+0.470280 is for fret number11 fretratiocalc.js:18
+0.500000 is for fret number12 fretratiocalc.js:18
+0.528043 is for fret number13 fretratiocalc.js:18
+0.554538 is for fret number14 fretratiocalc.js:18
+0.579570 is for fret number15 fretratiocalc.js:18
+0.603140 is for fret number16 fretratiocalc.js:18
+0.625419 is for fret number17 fretratiocalc.js:18
+0.646452 is for fret number18 fretratiocalc.js:18
+0.666280 is for fret number19 fretratiocalc.js:18
+0.685032 is for fret number20 fretratiocalc.js:18
+0.702710 is for fret number21 fretratiocalc.js:18
+0.719398 is for fret number22 fretratiocalc.js:18
+0.735140 is for fret number23 fretratiocalc.js:18
+0.749978 is for fret number24 
 
 scale length 23.5
 
@@ -249,4 +330,29 @@ scale length 25.5
 0.735137 is for fret number23 
 0.75 is for fret number24
 
-scale length  
+scale length  27.
+
+0.056111 is for fret number1 fretratiocalc.js:18
+0.109111 is for fret number2 fretratiocalc.js:18
+0.159111 is for fret number3 fretratiocalc.js:18
+0.206296 is for fret number4 fretratiocalc.js:18
+0.250852 is for fret number5 fretratiocalc.js:18
+0.292889 is for fret number6 fretratiocalc.js:18
+0.332593 is for fret number7 fretratiocalc.js:18
+0.370037 is for fret number8 fretratiocalc.js:18
+0.405407 is for fret number9 fretratiocalc.js:18
+0.438778 is for fret number10 fretratiocalc.js:18
+0.470259 is for fret number11 fretratiocalc.js:18
+0.500000 is for fret number12 fretratiocalc.js:18
+0.528074 is for fret number13 fretratiocalc.js:18
+0.554556 is for fret number14 fretratiocalc.js:18
+0.579556 is for fret number15 fretratiocalc.js:18
+0.603148 is for fret number16 fretratiocalc.js:18
+0.625407 is for fret number17 fretratiocalc.js:18
+0.646444 is for fret number18 fretratiocalc.js:18
+0.666296 is for fret number19 fretratiocalc.js:18
+0.685037 is for fret number20 fretratiocalc.js:18
+0.702704 is for fret number21 fretratiocalc.js:18
+0.719370 is for fret number22 fretratiocalc.js:18
+0.735148 is for fret number23 fretratiocalc.js:18
+0.750000 is for fret number24 

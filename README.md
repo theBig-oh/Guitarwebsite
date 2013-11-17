@@ -20,3 +20,11 @@ working on guitar site
 	x = fret ratio
 	y = scale length * fret ratio (w*x) {distance of fret from nut}
 	z = Distance - scale length (w - y) gives me the new starting point for w for 		the harmonics 
+
+11/16 -
+
+	Started checking the code in javascript to see if it would read off from the arrays. It works so far. 
+	Now I just need to add more scale lengths, and then figure out the jQuery for this damn thing. 
+
+	Also find out what's the best js library for making a drawing for the harmonics itself.
+	
