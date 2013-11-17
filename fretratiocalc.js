@@ -15,7 +15,12 @@ function scaleLen(){
 		t = t+1
 		var fretnum = fret[x]
 		var ans = fretnum / scale
+<<<<<<< HEAD
 		console.log(ans.toFixed(6) + ' is for fret number' + t )
+=======
+		var anss = ans.toFixed(6)
+		console.log(anss + ' is for fret number' + x )
+>>>>>>> a2323215b311e9b42114f5b9517f963935132264
 	}
 
 
