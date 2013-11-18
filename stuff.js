@@ -97,8 +97,8 @@ var scale = [
 
 if (scaleans == 0) {
 	var ratioans = scale[scaleans].scaleLength * scale[scaleans].values[fretnum];
-	var newlength= scale[scaleans].scaleLength - scale[scaleans].values[ratioans];
-	console.log(ratioans)
+	var newlength= scale[scaleans].scaleLength - ratioans;
+	console.log(newlength)
 }
 else
 {
