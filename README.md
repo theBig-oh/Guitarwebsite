@@ -29,6 +29,7 @@ working on guitar site
 	Also find out what's the best js library for making a drawing for the harmonics itself.
 	
 11/17 -
+	
 	Added all the scale lengths, and made a 2D array to combine all of them. I can't get the "If" statement to work
 	with this 2d array. It gives me a NaN result, I tried to parseFloat, however it still displays NaN. 
 
