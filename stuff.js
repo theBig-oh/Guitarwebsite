@@ -125,5 +125,9 @@ else
 };
 */
 
-
+if (scaleans == 0) {
+	var ratioans = scale1[fretnum]*length[scaleans]
+	var newlength = length[scaleans]-ratioans
+	console.log(newlength.toFixed(6))
+}
 
