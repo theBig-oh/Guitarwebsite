@@ -98,7 +98,8 @@ var scale = [
 if (scaleans == 0) {
 	var ratioans = scale[scaleans].scaleLength * scale[scaleans].values[fretnum];
 	var newlength= scale[scaleans].scaleLength - ratioans;
-	console.log(newlength)
+	var harmonic = newlength/2
+	console.log(newlength.toFixed(6) + " " + harmonic.toFixed(6))
 }
 else
 {
