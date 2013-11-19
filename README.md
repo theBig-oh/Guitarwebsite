@@ -36,3 +36,7 @@ working on guitar site
 	The other arrays, such as the one with scale1 to scale 12, works with the "If" statement that isn't commented out. 
 
 	Edit: Thanks to Chris (OrigamiRobot), the previous code works! The 2D array was put into a JSON object, I guess now I need to learn exactly what JSON does.
+
+11/18 - 
+	
+	Decided to make a new html.
