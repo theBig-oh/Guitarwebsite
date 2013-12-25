@@ -52,7 +52,7 @@
 	font-family:"Audiowide",cursive;
 }
 #guitarimage {
-	position:absolute;
+	position:fixed;
 	top:300px;
 	left:350px;
 	border:1px black;
@@ -66,16 +66,19 @@
 #title #guitarimage {
 	border:1px solid black;
 }
-#guitsel ul {
+#guitsel {
+	width:150px;
+	height:70px;
 	position:relative;
 	top:250px;
 	border:1px black;
+	font-family:"Abel",cursive;
 }
-#guitsel img{
+#guitsel img {
 	width:150px;
 	height:70px;
+	
 }
-
 </style>
 
 </head>
@@ -108,6 +111,7 @@ in the guitar selector is selected -->
 
 <!-- This is for the Guitar Selector Menu -->
 	<div id="guitsel">
+		<p>Select your guitar<br><span id="gselect">click here</span></p>
 		<ul id="guitarsel">
 			<li>
 				<img src='Images/danelectro.jpeg'/>
@@ -155,7 +159,9 @@ in the guitar selector is selected -->
 
 
 	</div>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src='main.js'></script>
+
 </body>
 
 </html>

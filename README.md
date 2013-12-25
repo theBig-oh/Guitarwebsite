@@ -40,3 +40,6 @@ working on guitar site
 11/18 - 
 	
 	Decided to make a new html.
+
+12/25 - 
+	Added a guitar selection menu in newguitar.html. Working on the interaction with the span id #gselect.
