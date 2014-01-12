@@ -11,10 +11,11 @@
 	background-color:rgba(0,0,0,0.3);
 	position:fixed;
 	top:-10px;
-	left:250px;
+	left:50%;
 	width:500px;
 	padding:10px;
 	border-radius:5px;
+	margin-left: -300px;
 }
 #title hr {
 	position:static;
@@ -25,7 +26,8 @@
 	display:inline;
 	font-family:'Advent Pro';
 	position:relative;
-	left:70px;
+	left:40px;
+	display:none;
 }
 #menu li{
 	display:inline;
@@ -54,10 +56,11 @@
 #guitarimage {
 	position:fixed;
 	top:300px;
-	left:350px;
+	left:50%;
 	border:1px black;
 	border-width:850px;
 	height:auto;
+	margin-left: -300px;
 }
 #guitarimage img {
 	width:75%;
@@ -79,8 +82,21 @@
 	height:70px;
 	
 }
-#guitarsel {
+#guitarsel  {
+	background-color:rgba(255,255,255,0.9);
+	border:1px,solid;
+	
+
+}
+.select {
+	border:1px;
+	background-color:rgba(255,255,255,0.5);
+	font-family:"Audiowide",cursive;
+	position:relative;
+	top:10px;
+	width:32px;
 	display:none;
+
 }
 </style>
 
@@ -99,9 +115,10 @@
 				<li id="linkNew">New project</li>
 			</ul>
 		</div>
-		<hr>
-		<hr style="width:25px">
-
+			<div class="slide">
+				<hr>
+				<hr style="width:25px">
+			</div>
 		</div>
 <!-- This is for the main guitar image. It shall be replaced by the apporiate guitar when an element
 in the guitar selector is selected -->
@@ -114,54 +131,69 @@ in the guitar selector is selected -->
 
 <!-- This is for the Guitar Selector Menu -->
 	<div id="guitsel">
-		<p>Select your guitar<br><span id="gselect">click here</span></p>
-		<ul id="guitarsel">
-			<li>
-				<img src='Images/danelectro.jpeg'/>
-			</li>
-			<li>
+		<p>Select your guitar's scale length<br><span id="gselect">click here</span></p>
+		<table id="guitarsel">
+			<tr>
+			<td id="firstguitar">
+				<img src='Images/squiresmall.jpg'/>
+				<p class="select">20.7</p>
+			</td>
+			<td id="seconguitar">
+				<img src='Images/FenMusMasSmall.jpg'/>
+			</td>
+			<td id="thirdguitar">
+				<img src='Images/FenStratSmall.jpg'/>
+			</td>
+			</tr>
+			<tr>
+			<td id="fourguitar">
+				<img src='Images/FenMustSmall.jpg'/>
+			</td>
+			<td id="fiveguitar">
 				<img src='Images/Fenjag.jpg'/>
-			</li>
-			<li>
-				<img src='Images/FenMusicMaster.jpg'/>
-			</li>
-			<li>
-				<img src='Images/FenMustang.jpg'/>
-			</li>
-			<li>
-				<img src='Images/FenStratJunior.jpg'/>
-			</li>
-			<li>
+
+			</td>
+			<td id="sixguitar">
 				<img src='Images/GibByrd.jpg'/>
-			</li>
-			<li>
+			</td>
+			</tr>
+			<tr>
+			<td id="sevenguitar">
 				<img src='Images/GibLesPaulJR.jpg'/>
-			</li>
-			<li>
+			</td>
+			<td id="eightguitar">
 				<img src='Images/GretchSilver.jpg'/>
-			</li>
-			<li>
+			</td>
+			<td id="nineguitar">
 				<img src='Images/IbanezArt.jpg'/>
-			</li>
-			<li>
+			</td>
+			</tr>
+			<tr>
+			<td id="tenguitar">
 				<img src='Images/IbanezGAX70.jpg'/>
-			</li>
-			<li>
+			</td>
+			<td id="elevenguitar">
 				<img src='Images/IbanezRG2228.jpg'/>
-			</li>
-			<li>
+			</td>
+			<td id="twelguitar">
 				<img src='Images/PRSSintana.jpg'/>
-			</li>
-			<li>
-				<img src='Images/SquireBullet.jpg'/>
-			</li>
-			<li>
+			</td>
+			</tr>
+			<tr>
+			<td id="thirteenguitar">
+				<img src='Images/danelectro.jpeg'/>
+			</td>
+			<td id="fourteenguitar">
 				<img src='Images/VoxVirageII.jpg'/>
-			</li>
-		</ul>
+			</td>
+			</tr>
+		</table>
 
 
 	</div>
+
+	<div id="textcontent">
+
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src='main.js'></script>
 
