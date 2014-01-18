@@ -4,7 +4,9 @@
 
 <style>
 @import url(http://fonts.googleapis.com/css?family=Abel|ABeeZee|Advent+Pro|Audiowide|Roboto);
-
+body {
+	background-color:#881101
+}
 
 #Title {
 	border:1px solid gray;
@@ -89,14 +91,19 @@
 
 }
 .select {
-	border:1px;
-	background-color:rgba(255,255,255,0.5);
+	border:1px white solid;
+	background-color:rgba(255,255,255,0);
 	font-family:"Audiowide",cursive;
 	position:relative;
 	top:10px;
 	width:32px;
 	display:none;
 
+}
+
+.gutiarsel td img:hover  {
+	
+	
 }
 </style>
 
@@ -132,7 +139,7 @@ in the guitar selector is selected -->
 <!-- This is for the Guitar Selector Menu -->
 	<div id="guitsel">
 		<p>Select your guitar's scale length<br><span id="gselect">click here</span></p>
-		<table id="guitarsel">
+		<table class="guitarsel">
 			<tr>
 			<td id="firstguitar">
 				<img src='Images/squiresmall.jpg'/>

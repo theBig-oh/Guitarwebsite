@@ -99,6 +99,8 @@ if (scaleans == 0) {
 	var ratioans = scale[scaleans].scaleLength * scale[scaleans].values[fretnum];
 	var newlength= scale[scaleans].scaleLength - ratioans;
 	var harmonic = newlength/2
+	var node = newlength-harmonic
+	console.log(node.toFixed(3) + '  is the location of this node for ' + scale[scaleans]) 
 	console.log(newlength.toFixed(6) + " " + harmonic.toFixed(6))
 }
 else
@@ -113,3 +115,7 @@ if (scaleans == 0) {
 	console.log(newlength.toFixed(6))
 }
 */
+
+/* 
+
+	I need to create a new variable, which takes the 
