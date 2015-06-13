@@ -62,7 +62,6 @@ var scale13 = [0,0.056111,0.109111,0.159111,0.206296,0.250852,0.292889,0.332593,
 //The Var length is the length of each scale length itself, it shall be referenced
 //when someone picks a scale length from scaleans. 
 */
-var length = [20.7,22.5];
 
 var fretnum = parseInt(prompt("What fret do you want to use?"));
 
@@ -94,19 +93,20 @@ var scale = [
 //I suspect it has something to do with this line of code over here. Each time the code runs, it will run the prompt
 //for both the "scaleans" and the "fretnum". However, it gives me a NaN result instead of the intended new scalelength distance
 
-
-if (scaleans == 0) {
-	var ratioans = scale[scaleans].scaleLength * scale[scaleans].values[fretnum];
-	var newlength= scale[scaleans].scaleLength - ratioans;
+for (var i = 0;i<scale.length;i++){
+if (scaleans == scale[i]) {
+	var ratioans = scale[i].scaleLength * scale[i].values[fretnum];
+	var newlength= scale[i].scaleLength - ratioans;
 	var harmonic = newlength/2
 	var node = newlength-harmonic
-	console.log(node.toFixed(3) + '  is the location of this node for ' + scale[scaleans]) 
-	console.log(newlength.toFixed(6) + " " + harmonic.toFixed(6))
+	console.log(node.toFixed(3) + '  is the location of this node for ' + scale[i]) 
+	console.log(newlength.toFixed(6) + " " + harmonic.toFixed(6) + " " + ratioans)
+	console.log(fretnum + " " + scale[i].scalelength + " " + scale[i])
 }
 else
 {
 	console.log("try again")
-};
+}};
 
 /*
 if (scaleans == 0) {
@@ -118,4 +118,4 @@ if (scaleans == 0) {
 
 /* 
 
-	I need to create a new variable, which takes the 
+	I need to create a new variable, which takes the */
