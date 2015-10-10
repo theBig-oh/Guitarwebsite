@@ -1,6 +1,41 @@
 Guitarwebsite
 =============
 
+!!!!!!!!!!!UPDATE!!!!!!!!!!
+
+
+			This repo is archived.
+
+
+			Go to https://github.com/OhMedrano/guitarweb instead. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 working on guitar site
  
 
